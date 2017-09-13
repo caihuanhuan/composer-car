@@ -1,0 +1,30 @@
+{
+    "name": "chh/composer-car",
+    "description": "my packagist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caihuanhuan",
+            "email": "caihuanhuan@ibona.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    },
+	"repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
